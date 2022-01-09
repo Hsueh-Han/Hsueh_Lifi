@@ -1,0 +1,15 @@
+.status-badge{
+  display: block;
+  text-align: center;
+  width: 44px;
+  border-radius: 8px;
+  padding: 0px 4px;
+  margin: 0 auto;
+}
+.badge-primary{
+  background: $lifi-primary;
+}
+.badge-notice{
+  background: $lifi-notice;
+  color: #ffffff;
+}

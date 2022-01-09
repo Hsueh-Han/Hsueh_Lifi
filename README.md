@@ -9,16 +9,23 @@ npm install
 ```
 npm run serve
 ```
+### JSON Server
 
-### Compiles and minifies for production
 ```
-npm run build
+cd /hsueh_lifi/public
 ```
-
-### Lints and fixes files
 ```
-npm run lint
+json-server db.json
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ `.env.lifi` VUE_APP_API 請與 JSON Server 運行的port號一致。
+
+I. 可選擇調整 `.env.lifi` 環境變數
+```
+VUE_APP_API = http://localhost:3000
+```
+
+II. 或是於終端機指令中指定 JSON Server port
+```
+json-server db.json --port 3000
+```

@@ -1,0 +1,26 @@
+.lifi-input{
+  border: 1px solid #E0E0E0;
+  height: 36px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+  text-align: center;
+  &::placeholder{
+    color: #9191A0;
+  }
+  &:not(:last-child){
+    margin-right: 10px;
+  }
+  &:focus{
+    border-color: $lifi-primary;
+  }
+  &.lifi-input-lg{
+    width: 200px;
+  }
+  &.lifi-input-md{
+    width: 110px;
+  }
+  &.lifi-input-sm{
+    width: 95px;
+  }
+}
